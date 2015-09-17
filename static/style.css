@@ -1,0 +1,97 @@
+#header{
+  color: #FFFFFF;
+  vertical-align: center;
+  text-align: center;
+  font: Helvetica Neue;
+  font-weight: 200;
+  font-size: 45;
+  background-color: #a80533;
+}
+
+body{
+  background-color: #FFFFFF;
+  color: #FFFFFF;
+}
+
+#Username{
+  color: #612776;
+  /*text-align: center;*/
+  font-size : 36;
+  font-family: Helvetica Neue;
+  font-weight: 100;
+}
+
+#Password{
+  color: #FFFFFF;
+  /*text-align: center;*/
+
+
+}
+
+#Login{
+  color: #612776;
+  /*text-align: center;*/
+  font-size : 40;
+  font-family: Helvetica Neue;
+  font-weight: 100;
+}
+
+#LoginButton{
+  color: #612776;
+  text-align: center;
+  font-size : 35;
+  font-family: Helvetica Neue;
+  font-weight: 100;
+  border-radius: 25px;
+  border: 2px solid #a80533;
+  width: 115px;
+  height: 45px;
+  margin: 0 auto;
+  transition: all .5s ease-in-out;
+
+}
+#LoginButton:hover {
+  width: 150px;
+  height: 45px;
+  background: #a80533;
+  -webkit-transition: width 1s; /* Safari */
+  transition: width 1s;
+  background-color: #a80533;
+}
+
+#SignupButton{
+  color: #612776;
+  text-align: center;
+  font-size : 35;
+  font-family: Helvetica Neue;
+  font-weight: 100;
+  border-radius: 25px;
+  border: 2px solid #a80533;
+  width: 115px;
+  height: 45px;
+  margin: 0 auto;
+  transition: all .5s ease-in-out;
+
+}
+#SignupButton:hover {
+  width: 150px;
+  height: 45px;
+  background: #a80533;
+  -webkit-transition: width 1s; /* Safari */
+  transition: width 1s;
+  background-color: #a80533;
+}
+#centerer{
+  text-align: center;
+  position: relative;
+  margin: auto;
+}
+
+#Signup{
+  color: #612776;
+  /*text-align: center;*/
+  font-size : 36;
+  font-family: Helvetica Neue;
+  font-weight: 100;
+
+}

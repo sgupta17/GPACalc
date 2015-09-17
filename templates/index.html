@@ -1,0 +1,39 @@
+
+<html>
+	<head>
+		<title> GPA Calculator</title>
+		<link rel="stylesheet" type="text/css" href="static/style.css">
+		<link rel="icon" href="static/favicon.ico">
+		<style>
+		p.outset {border-style: outset;}
+		</style>
+	</head>
+	<body>
+
+		<div id = "header"> <p class="outset">Kent Denver GPA Calculator</p></div>
+		<div id= "centerer">
+		<div id = "Username"> Username: </div>
+		<div id = "Password"> <input onchange="changeText()" type="text" id="User"></div>
+			<br>
+			<br>
+		<div id = "Username"> Password: </div>
+	  <div id = "Password"> <input onchange="changeText()" type="password" id="Pass"></div>
+			<br>
+			<a href = "login">
+		  <div id = "LoginButton">
+		    Login
+		   </div>
+			 </a>
+			 <br>
+			<div id = "Signup"> Don't have an account?</div>
+			<br>
+			<a href = "signup">
+		  <div id = "SignupButton">
+		    Signup
+		   </div>
+			 	</a>
+		</div>
+
+		<script src = "static/script.js"></script>
+	</body>
+</html>
