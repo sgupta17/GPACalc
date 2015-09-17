@@ -13,6 +13,25 @@ body{
   color: #FFFFFF;
 }
 
+#txt {
+    color: #FFFFFF;
+    text-align: center;
+    font-family: Helvetica Neue Light;
+      font-size: 20;
+}
+
+#footer{
+  bottom:0;
+  position: relative;
+  color: #FFFFFF;
+  vertical-align: center;
+  text-align: center;
+  font: Helvetica Neue;
+  font-weight: 200;
+  font-size: 20;
+  background-color: #a80533;
+}
+
 #Username{
   color: #612776;
   /*text-align: center;*/
