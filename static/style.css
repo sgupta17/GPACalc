@@ -13,11 +13,19 @@ body{
   color: #FFFFFF;
 }
 
-#txt {
+#demo {
     color: #FFFFFF;
     text-align: center;
-    font-family: Helvetica Neue Light;
-      font-size: 20;
+    font-family: Helvetica Neue;
+    font-weight: 100;
+    font-size: 20;
+}
+#clockbox{
+  color: #FFFFFF;
+  text-align: center;
+  font-family: Helvetica Neue;
+  font-weight: 100;
+  font-size: 20;
 }
 
 #footer{
@@ -27,9 +35,14 @@ body{
   vertical-align: center;
   text-align: center;
   font: Helvetica Neue;
-  font-weight: 200;
+  font-weight: 100;
   font-size: 20;
   background-color: #a80533;
+}
+#lol{
+  font-family: Helvetica Neue;
+  font-weight: 100;
+  font-size: 20;
 }
 
 #Username{
@@ -79,13 +92,13 @@ body{
 }
 
 #SignupButton{
-  color: #612776;
+  color: #a80533;
   text-align: center;
   font-size : 35;
   font-family: Helvetica Neue;
   font-weight: 100;
   border-radius: 25px;
-  border: 2px solid #a80533;
+  border: 2px solid #612776;
   width: 115px;
   height: 45px;
   margin: 0 auto;
@@ -95,10 +108,10 @@ body{
 #SignupButton:hover {
   width: 150px;
   height: 45px;
-  background: #a80533;
+  background: #612776;
   -webkit-transition: width 1s; /* Safari */
   transition: width 1s;
-  background-color: #a80533;
+  background-color: #612776;
 }
 #centerer{
   text-align: center;
